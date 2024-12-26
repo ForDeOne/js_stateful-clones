@@ -25,6 +25,7 @@ function transformStateWithClones(state, actions) {
         currentState = clearProperties(currentState);
         break;
     }
+
     stateHistory.push(currentState);
   }
 
